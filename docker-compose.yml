@@ -4,6 +4,7 @@ services:
     image: "mikaellaine/anns:latest"
     ports:
      - "8888:8888"
+     - "8887:8887"
      - "6006:6006"
     volumes:
      - $PWD:/home/digitalist
