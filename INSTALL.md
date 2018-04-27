@@ -60,6 +60,14 @@ If successful, the jupyter notebook will be served to a URL as shown below. Copy
     to login with a token:
         http://0.0.0.0:8888/?token=c07276cd245086f751443f74e594f788298ddd24c87dfef4
 ```
+### Step 6 Tensorboard
+Start a new terminal
+```
+docker ps
+cd
+cd anns
+tensorboard --logdir=notebooks/examplemodel --port=8887
+```
 ### You're all Done!  
 
 <a name="mac"></a>
@@ -91,6 +99,15 @@ If successful, the jupyter notebook will be served to a URL as shown below. Copy
     Copy/paste this URL into your browser when you connect for the first time,
     to login with a token:
         http://0.0.0.0:8888/?token=c07276cd245086f751443f74e594f788298ddd24c87dfef4
+```
+
+### Step 5 Tensorboard
+Start a new terminal
+```
+docker ps
+cd
+cd anns
+tensorboard --logdir=notebooks/examplemodel --port=8887
 ```
 ### You're all Done!
 <a name="windows"></a>
@@ -165,5 +182,11 @@ Copy the generated token to a text file (in the above example the token is **c07
 ### Step 7 - Open a Browser and Navigate to our Docker IP Address at port 8888 (Windows Only)
 Recall from step 4 we copied the IP address of the Docker container (eg. 192.168.99.100).  
 Open a brower and navigate to **192.168.99.100:8888**. You will be prompted to enter a token. Enter the token copied from Step 6 and click **Log In**. You should now be able to access the Jupyter notebooks.  
-
+### Step 8 Tensorboard
+Start a new Docker Quickstart Terminal
+```
+cd
+cd anns
+tensorboard --logdir=notebooks/examplemodel --port=8887
+```
 ### You're all Done!
