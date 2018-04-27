@@ -64,9 +64,7 @@ If successful, the jupyter notebook will be served to a URL as shown below. Copy
 Start a new terminal
 ```
 docker ps
-cd
-cd anns
-tensorboard --logdir=notebooks/examplemodel --port=8887
+docker exec [id] tensorboard --logdir=anns/notebooks/examplemodel --port=8887
 ```
 ### You're all Done!  
 
@@ -101,13 +99,11 @@ If successful, the jupyter notebook will be served to a URL as shown below. Copy
         http://0.0.0.0:8888/?token=c07276cd245086f751443f74e594f788298ddd24c87dfef4
 ```
 
-### Step 5 Tensorboard
+### Step 5 Tensorboard (unless the jupyter one works)
 Start a new terminal
 ```
 docker ps
-cd
-cd anns
-tensorboard --logdir=notebooks/examplemodel --port=8887
+docker exec [id] tensorboard --logdir=anns/notebooks/examplemodel --port=8887
 ```
 ### You're all Done!
 <a name="windows"></a>
