@@ -40,15 +40,11 @@ git clone https://github.com/mikaellaine/anns.git
 ```
 ### Step 4 - Launch the docker image (This can take some time)
 ```sh
-<<<<<<< HEAD
-cd ~/anns/
-=======
 cd ~/anns
 docker-compose up
 ```
 ### Step 5 - Launch a Jupyter Notebook within the `anns` Docker container
 ```sh
->>>>>>> b831b24de6e264f8bfd52171305a8c42fef875f6
 docker-compose up
 ```
 If successful, the jupyter notebook will be served to a URL as shown below. Copy and paste the url to your browser.
@@ -65,7 +61,7 @@ If successful, the jupyter notebook will be served to a URL as shown below. Copy
     to login with a token:
         http://0.0.0.0:8888/?token=c07276cd245086f751443f74e594f788298ddd24c87dfef4
 ```
-### Step 5 Tensorboard
+### Step 6 Tensorboard
 Start a new terminal
 ```
 docker ps
