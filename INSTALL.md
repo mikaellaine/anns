@@ -40,6 +40,7 @@ git clone https://github.com/mikaellaine/anns.git
 ```
 ### Step 4 - Launch the docker image (This can take some time)
 ```sh
+cd ~/anns
 docker-compose up
 ```
 ### Step 5 - Launch a Jupyter Notebook within the `anns` Docker container
@@ -151,8 +152,7 @@ Open the Docker Quickstart Terminal. It will automatically install VirtualBox VM
 
 Run these commmands:
 ```sh
-cd
-cd anns
+cd ~/anns
 docker-compose up
 
 ```
